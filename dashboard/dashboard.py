@@ -14,7 +14,7 @@ def create_sum_rental_df(df):
     }, inplace=True)
     return sum_rental_df
 
-df = pd.read_csv("df_bike.csv")
+df = pd.read_csv("dashboard/df_bike.csv")
 
 # Filter data
 df['dteday'] = pd.to_datetime(df['dteday'])
